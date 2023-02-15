@@ -1,0 +1,1 @@
+<view><uni-tag vue-id="8abf61bc-1" size="small" text="{{typeObj[typeNum]}}" type="{{typeNum==0?'success':typeNum==1?'primary':typeNum==2?'warning':typeNum==3?'royal':typeNum==4?'error':'default'}}" bind:__l="__l"></uni-tag></view>

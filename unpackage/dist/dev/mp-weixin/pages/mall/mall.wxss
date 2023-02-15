@@ -1,0 +1,105 @@
+page {
+  background-color: #f9f9f9;
+}
+.search {
+  margin-top: -20rpx;
+}
+.selectBox {
+  background-color: #ffffff;
+  border-radius: 15rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+}
+.selectBox ._select {
+  margin-left: 16rpx;
+  margin-right: 16rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  border: 0;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #888;
+}
+.selectBox ._span {
+  height: 60rpx;
+  line-height: 60rpx;
+  margin-left: 50rpx;
+  font-family: PingFangSC;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  letter-spacing: 0px;
+  line-height: 20px;
+  text-decoration: none;
+}
+.selectBox .svg-icon-path-icon {
+  position: relative;
+  top: 10rpx;
+}
+.group button {
+  display: inline-block;
+  width: 50%;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+  font-size: 30rpx;
+}
+.group-pop-power-list {
+  border: 1px solid;
+  line-height: 100rpx;
+  padding-left: 4%;
+  font-size: 28rpx;
+}
+.product-list {
+  padding: 15rpx;
+  background-color: #ffffff;
+  margin-top: 20rpx;
+  border-radius: 25rpx;
+  display: flex;
+}
+.product-list-img {
+  width: 290rpx;
+  height: 240rpx;
+  border-radius: 25rpx;
+  overflow: hidden;
+}
+.product-list-box {
+  line-height: 65rpx;
+  margin-left: 15rpx;
+  width: 385rpx;
+  height: 240rpx;
+}
+.product-list-box-title {
+  display: flex;
+}
+.product-list-box-title view {
+  margin-right: 10rpx;
+}
+.product-list-box-title text {
+  width: 270rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.product-list-box-time {
+  font-size: 25rpx;
+}
+.product-list-box-price {
+  display: flex;
+  justify-content: space-between;
+}
+.product-list-box-price-num {
+  font-size: 38rpx;
+  color: #6aaf20;
+}
+.product-list-box-price-repertory {
+  font-size: 25rpx;
+}
+.bottomBar {
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 28rpx;
+  color: #999;
+}
+

@@ -1,0 +1,25 @@
+page {
+  background-color: #F9F9F9;
+}
+.showBox-info {
+  padding: 20rpx;
+  background-color: #fff;
+  border-radius: 25rpx;
+}
+.showBox-info-box {
+  display: flex;
+  justify-content: space-between;
+  font-size: 26rpx;
+  line-height: 50rpx;
+}
+.showBox-info:nth-child(n+2) {
+  margin-top: 20rpx;
+}
+.bottomBar {
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 28rpx;
+  color: #999;
+}
+

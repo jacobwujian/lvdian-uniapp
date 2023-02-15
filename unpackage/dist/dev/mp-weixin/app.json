@@ -1,0 +1,78 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/mall/mall",
+        "pages/mall/components/companyMallDetails",
+        "pages/mall/components/companyOrder",
+        "pages/mall/components/index",
+        "pages/mall/components/djj-details",
+        "pages/news/news",
+        "pages/news/publicWelfareNews",
+        "pages/index/computedCo2",
+        "pages/news/components/newDetails",
+        "pages/login/login",
+        "pages/login/components/register",
+        "pages/login/components/forgetPassword",
+        "pages/login/index",
+        "pages/login/mineCompany/mineCompany",
+        "pages/login/mineCompany/companyAssets",
+        "pages/login/mineCompany/components/publishAssetsDetails",
+        "pages/login/mineCompany/components/assetsRecord",
+        "pages/login/mineCompany/components/assetsVer",
+        "pages/login/mineCompany/companyOrder",
+        "pages/login/mineCompany/components/companyOrderDetails",
+        "pages/login/mineCompany/companyAccount",
+        "pages/login/mineCompany/companyInfo",
+        "pages/login/mineCompany/deviceManagement",
+        "pages/login/mineCompany/components/deviceManagementDetails",
+        "pages/login/mine/sjhx-details",
+        "pages/login/mine/yhj-details",
+        "pages/login/mine/ldzs",
+        "pages/login/mine/jfdd-details",
+        "pages/index/publishRank",
+        "pages/index/subscribeRank",
+        "pages/login/mineCompany/project/companyProject",
+        "pages/login/mineCompany/project/components/projectDeltails",
+        "pages/login/mineCompany/project/components/createProject"
+    ],
+    "subPackages": [],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F9F9F9",
+        "backgroundColor": "#F9F9F9",
+        "navigationStyle": "custom"
+    },
+    "tabBar": {
+        "color": "rgb(136, 136, 136)",
+        "selectedColor": "rgb(108, 186, 24)",
+        "list": [
+            {
+                "text": "首页",
+                "pagePath": "pages/index/index",
+                "iconPath": "static/img/tabbars/home.png",
+                "selectedIconPath": "static/img/tabbars/active_home.png"
+            },
+            {
+                "text": "认购大厅",
+                "pagePath": "pages/mall/mall",
+                "iconPath": "static/img/tabbars/mall.png",
+                "selectedIconPath": "static/img/tabbars/active_mall.png"
+            },
+            {
+                "text": "最新资讯",
+                "pagePath": "pages/news/news",
+                "iconPath": "static/img/tabbars/news.png",
+                "selectedIconPath": "static/img/tabbars/active_news.png"
+            },
+            {
+                "text": "我的",
+                "pagePath": "pages/login/index",
+                "iconPath": "static/img/tabbars/mine.png",
+                "selectedIconPath": "static/img/tabbars/active_mine.png"
+            }
+        ]
+    },
+    "usingComponents": {},
+    "sitemapLocation": "sitemap.json"
+}

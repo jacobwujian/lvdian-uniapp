@@ -1,0 +1,47 @@
+page {
+  background-color: #F9F9F9;
+}
+.page {
+  background-color: #F9F9F9;
+  padding-bottom: 30rpx;
+}
+.page .charts-box {
+  width: 100%;
+  height: 300px;
+  background-color: #FFFFFF;
+  border-radius: 25rpx;
+}
+.page .rankBox {
+  margin-top: 20rpx;
+  background-color: #FFFFFF;
+  padding: 15rpx 25rpx;
+  border-radius: 25rpx;
+}
+.page .rankBox .rankTitle {
+  margin-bottom: 15rpx;
+  font-size: 38rpx;
+}
+.page .rankBox .rankTemp .rankItem {
+  margin-top: 20rpx;
+  font-size: 28rpx;
+  line-height: 55rpx;
+}
+.page .rankBox .rankTemp .rankItem .index {
+  color: #9195A3;
+}
+.page .rankBox .rankTemp .rankItem .itemHr {
+  width: 100%;
+  border: 1rpx solid;
+  background-color: #9195A3;
+  opacity: 0.1;
+}
+.page .rankBox .rankTemp .rankItem:nth-child(1) .index {
+  color: #FE2D46;
+}
+.page .rankBox .rankTemp .rankItem:nth-child(2) .index {
+  color: #F60;
+}
+.page .rankBox .rankTemp .rankItem:nth-child(3) .index {
+  color: #FAA90E;
+}
+

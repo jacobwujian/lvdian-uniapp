@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "公司信息",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "adverts": "/components/Adverts/Adverts"
+  }
+}

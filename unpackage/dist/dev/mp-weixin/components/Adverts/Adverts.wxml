@@ -1,0 +1,1 @@
+<view><swiper indicator-dots="{{true}}" circular="{{true}}" autoplay="{{true}}" interval="2000"><swiper-item><image src="https://s2.loli.net/2022/01/11/FUMsCXtfEl4P9dx.png"></image></swiper-item><swiper-item><image src="https://s2.loli.net/2022/01/11/I68Q5piUVLdb2yj.png"></image></swiper-item></swiper></view>

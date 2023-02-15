@@ -1,0 +1,77 @@
+page {
+  background-color: #F9F9F9;
+}
+.boxTop {
+  padding: 20rpx;
+}
+.boxTop-title {
+  line-height: 70rpx;
+  text-align: center;
+  font-size: 40rpx;
+  font-weight: 700;
+  font-family: PingFangSC-Medium, PingFang SC;
+}
+.boxTop-show {
+  display: flex;
+  justify-content: space-around;
+  font-size: 25rpx;
+  margin-top: 20rpx;
+  color: #999;
+}
+.boxContent {
+  font-size: 29rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #555555;
+  padding: 0 25rpx 30rpx 25rpx;
+}
+.hr {
+  width: 100%;
+  border: 1rpx #ccc solid;
+  margin-top: 20rpx;
+}
+.describe {
+  /* blockquote 样式 */
+  /* code 样式 */
+  /* ul ol 样式 */
+}
+.describe ._table {
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+.describe ._table ._td,
+.describe ._table ._th {
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding: 3px 5px;
+}
+.describe ._table ._th {
+  border-bottom: 2px solid #ccc;
+  text-align: center;
+}
+.describe ._blockquote {
+  display: block;
+  border-left: 8px solid #d0e5f2;
+  padding: 5px 10px;
+  margin: 10px 0;
+  line-height: 1.4;
+  font-size: 100%;
+  background-color: #f1f1f1;
+}
+.describe ._code {
+  display: inline-block;
+  display: inline;
+  zoom: 1;
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  padding: 3px 5px;
+  margin: 0 3px;
+}
+.describe ._pre ._code {
+  display: block;
+}
+.describe ._ul,
+.describe ._ol {
+  margin: 10px 0 10px 20px;
+}
+

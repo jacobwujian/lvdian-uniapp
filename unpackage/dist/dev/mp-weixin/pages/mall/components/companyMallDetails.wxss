@@ -1,0 +1,123 @@
+page {
+  background-color: #F9F9F9;
+}
+.page {
+  background-color: #F9F9F9;
+  padding-bottom: 1px;
+}
+.img {
+  height: 100%;
+  width: 100%;
+}
+/* 商品 */
+.goods {
+  background-color: #fff;
+  padding-bottom: 10rpx;
+  border-radius: 25rpx;
+  overflow: hidden;
+}
+.goods-imgBox {
+  height: 500rpx;
+  border-radius: 25rpx;
+  overflow: hidden;
+}
+.goods-info {
+  padding-left: 30rpx;
+  padding-right: 10rpx;
+  line-height: 70rpx;
+}
+.goods-info-price {
+  display: flex;
+  justify-content: space-between;
+}
+.goods-info-price-num {
+  display: flex;
+}
+.goods-info-price-num text {
+  font-size: 38rpx;
+  color: #6aaf20;
+}
+.goods-info-price-inventory {
+  color: #999999;
+  font-size: 26rpx;
+}
+/* 信息 */
+.details {
+  background-color: #fff;
+  margin-top: 20rpx;
+  padding: 20rpx;
+  margin-bottom: 150rpx;
+  border-radius: 25rpx;
+  overflow: hidden;
+}
+.details-hr {
+  background: #e0e3da;
+  height: 5rpx;
+  margin-top: 20rpx;
+}
+.details-info-box {
+  font-size: 28rpx;
+  margin-top: 30rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.details-info-box-left {
+  width: 260rpx;
+}
+.details-info-box-right {
+  word-wrap: break-word;
+}
+.details-info-box-width {
+  width: 390rpx;
+}
+.buyBox {
+  background-color: #F9F9F9;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.buyBox view {
+  font-size: 22rpx;
+  line-height: 40rpx;
+  text-align: center;
+  color: #999999;
+}
+.operationPanel-title {
+  margin-top: 10rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 40rpx;
+  font-weight: 500;
+}
+.operationPanel-info {
+  display: flex;
+  padding: 10rpx 20rpx 15rpx 15rpx;
+}
+.operationPanel-info-img {
+  height: 180rpx;
+  width: 230rpx;
+  border-radius: 25rpx;
+  overflow: hidden;
+}
+.operationPanel-info-box {
+  margin-left: 25rpx;
+  height: 180rpx;
+}
+.operationPanel-info-box view {
+  line-height: 60rpx;
+}
+.operationPanel-info-box-price {
+  color: #6aaf20;
+  font-size: 25rpx;
+}
+.operationPanel-info-box-price text {
+  font-size: 35rpx;
+}
+.operationPanel-info-box-inventory {
+  font-size: 25rpx;
+}
+.operationPanel-btn {
+  height: 100rpx;
+}
+

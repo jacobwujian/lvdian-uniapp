@@ -1,0 +1,130 @@
+page {
+  background-color: #F9F9F9;
+}
+.page {
+  padding-bottom: 1px;
+  background-color: #F9F9F9;
+}
+.img {
+  height: 100%;
+  width: 100%;
+}
+.order {
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20rpx 15rpx 30rpx 15rpx;
+  overflow: hidden;
+  border-radius: 25rpx;
+}
+.order-img {
+  margin-top: 10rpx;
+  margin-left: 10rpx;
+  height: 220rpx;
+  width: 42%;
+  border-radius: 25rpx;
+  overflow: hidden;
+}
+.order-box {
+  margin-top: 10rpx;
+  width: 54%;
+}
+.order-box-title {
+  font-size: 30rpx;
+  line-height: 40rpx;
+}
+.order-box-price {
+  margin-top: 10rpx;
+  height: 80rpx;
+  position: relative;
+}
+.order-box-price text {
+  font-size: 28rpx;
+  line-height: 70rpx;
+  text-align: center;
+}
+.order-box-price-ipt {
+  position: absolute;
+  top: 0;
+  left: 130rpx;
+}
+.order-box-num {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10rpx;
+}
+.order-box-num text {
+  font-size: 28rpx;
+  line-height: 50rpx;
+  text-align: center;
+}
+.order-box-inventory {
+  font-size: 25rpx;
+  color: #999999;
+  float: right;
+  margin-top: 10rpx;
+}
+.order-uploadBox {
+  width: 100%;
+  margin-top: 50rpx;
+}
+.details {
+  background-color: #fff;
+  margin: 20rpx 0 150rpx 0;
+  padding: 20rpx;
+  border-radius: 25rpx;
+  overflow: hidden;
+}
+.details-hr {
+  background: #E0E3DA;
+  height: 5rpx;
+  margin-top: 20rpx;
+}
+.details-info-box {
+  font-size: 28rpx;
+  margin-top: 30rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.details-info-box-left {
+  width: 260rpx;
+}
+.details-info-box-right {
+  word-wrap: break-word;
+}
+.details-info-box-width {
+  width: 390rpx;
+}
+.buyBox {
+  background-color: #fff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 10rpx 30rpx 10rpx 30rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.buyBox-data {
+  position: relative;
+}
+.buyBox-data view {
+  font-size: 26rpx;
+  position: absolute;
+  bottom: 0;
+  width: 405rpx;
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.buyBox-data view text {
+  font-size: 45rpx;
+}
+.buyBox-btn {
+  width: 280rpx;
+}
+

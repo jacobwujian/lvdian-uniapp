@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "绿色电力最新资讯",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-nav-bar": "/uni_modules/uni-nav-bar/components/uni-nav-bar/uni-nav-bar",
+    "uni-dateformat": "/uni_modules/uni-dateformat/components/uni-dateformat/uni-dateformat",
+    "swiper-module": "/components/swiper-module/swiper-module"
+  }
+}

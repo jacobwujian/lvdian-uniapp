@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-nav-bar": "/uni_modules/uni-nav-bar/components/uni-nav-bar/uni-nav-bar",
+    "mine": "/pages/login/mine/mine",
+    "login": "/pages/login/login",
+    "mine-company": "/pages/login/mineCompany/mineCompany"
+  }
+}

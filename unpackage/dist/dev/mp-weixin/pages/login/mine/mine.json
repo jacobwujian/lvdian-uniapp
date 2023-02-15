@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "adverts": "/components/Adverts/Adverts"
+  }
+}

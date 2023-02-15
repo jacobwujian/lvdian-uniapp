@@ -1,0 +1,301 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false // 下拉刷新
+			}
+		}, {
+			"path": "pages/mall/mall",
+			"style": {
+				"navigationBarTitleText": "认购大厅",
+				"enablePullDownRefresh": true
+			}
+
+		},
+		{
+			"path": "pages/mall/components/companyMallDetails",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mall/components/companyOrder",
+			"style": {
+				"navigationBarTitleText": "订单",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mall/components/index",
+			"style": {
+				"navigationBarTitleText": "积分兑换",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mall/components/djj-details",
+			"style": {
+				"navigationBarTitleText": "兑换详情",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "绿色电力最新资讯",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/news/publicWelfareNews",
+			"style": {
+				"navigationBarTitleText": "公益聚爱",
+				"enablePullDownRefresh": true
+			}
+
+		},
+		{
+			"path": "pages/index/computedCo2",
+			"style": {
+				"navigationBarTitleText": "碳排计算",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/news/components/newDetails",
+			"style": {
+				"navigationBarTitleText": "资讯详情",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "浙江省绿色电力积分交易中心",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/login/components/register",
+			"style": {
+				"navigationBarTitleText": "立即注册",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/login/components/forgetPassword",
+			"style": {
+				"navigationBarTitleText": "忘记密码",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/login/mineCompany/mineCompany",
+			"style": {
+				"navigationBarTitleText": "公司信息",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/login/mineCompany/companyAssets",
+			"style": {
+				"navigationBarTitleText": "资产管理",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/login/mineCompany/components/publishAssetsDetails",
+			"style": {
+				"navigationBarTitleText": "资产详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/mineCompany/components/assetsRecord",
+			"style": {
+				"navigationBarTitleText": "发布记录",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/mineCompany/components/assetsVer",
+			"style": {
+				"navigationBarTitleText": "核销记录",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/mineCompany/companyOrder",
+			"style": {
+				"navigationBarTitleText": "订单管理",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/mineCompany/components/companyOrderDetails",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/mineCompany/companyAccount",
+			"style": {
+				"navigationBarTitleText": "账户管理",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/mineCompany/companyInfo",
+			"style": {
+				"navigationBarTitleText": "机构管理",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/mineCompany/deviceManagement",
+			"style": {
+				"navigationBarTitleText": "设备管理",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/mineCompany/components/deviceManagementDetails",
+			"style": {
+				"navigationBarTitleText": "设备详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/mine/sjhx-details",
+			"style": {
+				"navigationBarTitleText": "商家核销",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/login/mine/yhj-details",
+			"style": {
+				"navigationBarTitleText": "优惠券详情",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/login/mine/ldzs",
+			"style": {
+				"navigationBarTitleText": "绿电证书",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/login/mine/jfdd-details",
+			"style": {
+				"navigationBarTitleText": "积分订单",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/index/publishRank",
+			"style": {
+				"navigationBarTitleText": "发行排行",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/index/publishRank-uCharts",
+			"style": {
+				"navigationBarTitleText": "发行排行Temp",
+				"enablePullDownRefresh": false
+			}
+		
+		}, {
+			"path": "pages/index/subscribeRank",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/login/mineCompany/project/companyProject",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/mineCompany/project/components/projectDeltails",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/mineCompany/project/components/createProject",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F9F9F9",
+		"backgroundColor": "#F9F9F9",
+		"navigationStyle": "custom"
+	},
+	"tabBar": {
+		"color": "rgb(136, 136, 136)",
+		"selectedColor": "rgb(108, 186, 24)",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/tabbars/home.png",
+				"selectedIconPath": "static/img/tabbars/active_home.png"
+			},
+			{
+				"text": "认购大厅",
+				"pagePath": "pages/mall/mall",
+				"iconPath": "static/img/tabbars/mall.png",
+				"selectedIconPath": "static/img/tabbars/active_mall.png"
+			},
+			{
+				"text": "最新资讯",
+				"pagePath": "pages/news/news",
+				"iconPath": "static/img/tabbars/news.png",
+				"selectedIconPath": "static/img/tabbars/active_news.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/login/index",
+				"iconPath": "static/img/tabbars/mine.png",
+				"selectedIconPath": "static/img/tabbars/active_mine.png"
+			}
+
+		]
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

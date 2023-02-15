@@ -1,0 +1,21 @@
+page {
+  background-color: #FFFFFF;
+}
+.page {
+  background-color: #FFFFFF;
+}
+.page .formBox .proTemp {
+  border: 1px solid #F0F0F0;
+}
+.page .formBox .dropDownBox {
+  font-size: 30rpx;
+  padding: 8rpx;
+  padding-left: 18rpx;
+  border-bottom: 2px #bbbbbb solid;
+}
+.page .formBtns {
+  padding-bottom: 30rpx;
+  display: flex;
+  justify-content: space-between;
+}
+

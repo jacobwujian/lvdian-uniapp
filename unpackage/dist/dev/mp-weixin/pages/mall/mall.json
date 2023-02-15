@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "认购大厅",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-nav-bar": "/uni_modules/uni-nav-bar/components/uni-nav-bar/uni-nav-bar",
+    "adverts": "/components/Adverts",
+    "uni-search-bar": "/uni_modules/uni-search-bar/components/uni-search-bar/uni-search-bar",
+    "uni-dateformat": "/uni_modules/uni-dateformat/components/uni-dateformat/uni-dateformat",
+    "uni-rate": "/uni_modules/uni-rate/components/uni-rate/uni-rate",
+    "tag": "/components/tag-module/tag-module",
+    "easy-select": "/components/easy-select/easy-select"
+  }
+}

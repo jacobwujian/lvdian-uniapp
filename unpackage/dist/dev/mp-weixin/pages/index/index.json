@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-nav-bar": "/uni_modules/uni-nav-bar/components/uni-nav-bar/uni-nav-bar",
+    "swiper-module": "/components/swiper-module/swiper-module"
+  }
+}

@@ -1,0 +1,17 @@
+
+.form {
+	margin: 20rpx;
+}
+ .uni-input-input .uni-input-border {
+	padding: 0 10px;
+	height: 35px;
+	width: 100%;
+	font-size: 16px;
+	color: #666;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+ .is-input-border {
+	border-bottom: 2rpx solid rgb(187, 187, 187);
+}
+
